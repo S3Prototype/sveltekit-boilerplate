@@ -1,4 +1,4 @@
-lockfileVersion: 5.4
+lockfileVersion: 5.3
 
 specifiers:
   '@fontsource/fira-mono': ^4.5.10
@@ -28,9 +28,9 @@ devDependencies:
   '@types/cookie': 0.5.1
   eslint: 8.41.0
   eslint-config-prettier: 8.8.0_eslint@8.41.0
-  eslint-plugin-svelte: 2.29.0_2rgspgo736k3nkqykgvv2sinmy
+  eslint-plugin-svelte: 2.29.0_eslint@8.41.0+svelte@3.59.1
   prettier: 2.8.8
-  prettier-plugin-svelte: 2.10.0_blbg2s7pis747igzn3ilcyh5ou
+  prettier-plugin-svelte: 2.10.0_prettier@2.8.8+svelte@3.59.1
   svelte: 3.59.1
   svelte-check: 3.3.2_svelte@3.59.1
   typescript: 5.0.4
@@ -806,7 +806,7 @@ packages:
       eslint: 8.41.0
     dev: true
 
-  /eslint-plugin-svelte/2.29.0_2rgspgo736k3nkqykgvv2sinmy:
+  /eslint-plugin-svelte/2.29.0_eslint@8.41.0+svelte@3.59.1:
     resolution: {integrity: sha512-ukEC5z9ZXwDtwD8L12ei9doF9P/mQVeiLZiUxExWN9ZNTLNwZgfmEKx+s0tNio0YnYHzKz6qELxFei4SqVbLkQ==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -1507,7 +1507,7 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-svelte/2.10.0_blbg2s7pis747igzn3ilcyh5ou:
+  /prettier-plugin-svelte/2.10.0_prettier@2.8.8+svelte@3.59.1:
     resolution: {integrity: sha512-GXMY6t86thctyCvQq+jqElO+MKdB09BkL3hexyGP3Oi8XLKRFaJP1ud/xlWCZ9ZIa2BxHka32zhHfcuU+XsRQg==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
@@ -1742,7 +1742,7 @@ packages:
       picocolors: 1.0.0
       sade: 1.8.1
       svelte: 3.59.1
-      svelte-preprocess: 5.0.3_gmmus3lprw664mkdmboocppfke
+      svelte-preprocess: 5.0.3_svelte@3.59.1+typescript@5.0.4
       typescript: 5.0.4
     transitivePeerDependencies:
       - '@babel/core'
@@ -1780,7 +1780,7 @@ packages:
       svelte: 3.59.1
     dev: true
 
-  /svelte-preprocess/5.0.3_gmmus3lprw664mkdmboocppfke:
+  /svelte-preprocess/5.0.3_svelte@3.59.1+typescript@5.0.4:
     resolution: {integrity: sha512-GrHF1rusdJVbOZOwgPWtpqmaexkydznKzy5qIC2FabgpFyKN57bjMUUUqPRfbBXK5igiEWn1uO/DXsa2vJ5VHA==}
     engines: {node: '>= 14.10.0'}
     requiresBuild: true
