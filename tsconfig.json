@@ -8,7 +8,7 @@
 		"isolatedModules": true,
 		"lib": ["esnext", "DOM", "DOM.Iterable"],
 		"moduleResolution": "node",
-		"module": "ES6",
+		"module": "esnext",
 		"target": "ES6"
 	},
 	"include": [
