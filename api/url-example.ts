@@ -1,12 +1,13 @@
-import type { VercelRequest } from '@vercel/node';
+import { get } from '@vercel/edge-config';
 
-export default async function handler(request: VercelRequest, response) {
-	if (!request.url) return response.status(400);
+export const config = {
+	runtime: 'edge'
+};
 
-	const url = new URL(request.url, `http://${request.headers.host}`);
-	const { searchParams } = url;
-	const hasTitle = searchParams.has('title');
-	const title = hasTitle ? searchParams.get('title')?.slice(0, 100) : 'My default title';
-
-	return response.status(200).json({ title });
+export default async function handler() {
+	const exampleValue1 = await get('example_key_1');
+	return Response.json({
+		label: `This is the value of "example_key_1" in my Edge Config.`,
+		value: exampleValue1
+	});
 }
