@@ -15,6 +15,7 @@
 			analyticsId: data.analyticsId
 		});
 	}
+
 </script>
 
 <div class="app">
