@@ -1,8 +1,4 @@
 import { VercelRequest, VercelResponse } from "@vercel/node";
-
- export const config = {
-  supportsResponseStreaming: true
- };
  
 // You can name this method anything
 export default async function handler(request: VercelRequest, response: VercelResponse) {
