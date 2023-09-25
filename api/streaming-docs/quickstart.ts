@@ -1,7 +1,6 @@
 import { VercelRequest, VercelResponse } from "@vercel/node";
 
  export const config = {
-  // Works if set to 'edge'
   supportsResponseStreaming: true
  };
  
